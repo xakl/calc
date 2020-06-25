@@ -1,8 +1,17 @@
-function calc(f){
-x = Number(f.x.value);
-y = Number(f.y.value);
-z = x + y;
-f.z.value = z;
-
-a = Number(f.a.value);
-b = Number(f.b.value);
+<html>
+<head>
+<link rel="css" type="text/css" href="style.css">
+<title>
+計算ソフト
+</title>
+</head>
+<body>
+<FORM NAME="form1">
+<INPUT TYPE="text" SIZE=10 NAME="x">+
+<INPUT TYPE="text" SIZE=10 NAME="y">=
+<INPUT TYPE="text" SIZE=10 NAME="z"><BR>
+<INPUT TYPE="button" VALUE="計算" onClick="calc(this.form)">
+<BR>
+</FORM>
+<script type="text/javascript" src="calc.js"></script>
+</body>
